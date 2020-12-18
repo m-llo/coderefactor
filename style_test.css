@@ -8,18 +8,7 @@
         font-size: 15px;
     }
 }
-/* @media screen and (max-width:768px) {
-    body {
-        background-color: #d9dcd6;
-    }
     
-}
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  } */
-
 body {
     background-color: #d9dcd6;
 }
@@ -67,16 +56,16 @@ p {
 h2 {
     font-size: 20px;
 }
-/* Large backgroun picture */
+/* Large background picture */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("./Assets/images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
-/* Section Content */
+/* article */
 /* All content under large background image and left of vertical box */
 .float-left {
     float: left;
@@ -146,7 +135,7 @@ h2 {
     max-width: 150px;
 }
 /* Section Footer */
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
